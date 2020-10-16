@@ -1,0 +1,119 @@
+@font-face{
+	font-family: dolce vita light;
+	src:url(../fuentes/dolcevitalight.ttf) format("truetype");
+
+	font-family: dolce vita heavy;
+	src:url(../fuentes/dolcevitaheavybold.ttf) format("truetype");
+}
+
+*{
+	box-sizing: border-box;
+	margin-right: 0px;
+}
+body{
+	background-color: black;
+	margin:auto;
+}
+
+h2{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	text-align: center;
+}
+h1{
+	font-family: dolce vita heavy;
+	font-size: 80px;
+	text-align:center;
+}
+h3{
+	font-family: dolce vita heavy;
+	font-size: 60px;
+	text-align: center;
+}
+h4{
+	font-family: dolce vita heavy;
+	font-size: 40px;
+	text-align: center;
+}
+p{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+}
+.logo{
+	display: flex;
+	background-color: #ffffff;
+	height: 70px;
+	padding: 10px;
+	align-items: center;
+}
+.autob{
+	background-color: #ffffff;
+	display: flex;
+	display: table-column;
+	height: 620px; 
+	float: left;
+}
+.cajahobbies{
+	justify-content: center
+	height:230px;
+}
+.hobbies{
+	background-color: #B3B3B3;
+	display: table-column;
+	margin: 10px;
+	height: 230px;
+}
+.imghobbies{
+	background-color: #ffffff;
+	display: table-column;
+	margin: 10px;
+	height: 230px;
+}
+.nombre {
+	background-color: #8122DD;
+	display: flex;
+	display: table-column;
+	height: 620px;
+	float: left;
+	
+}
+.foto {
+	margin-left: 20px;
+	display: flex;
+	height: 370px;
+}
+.separador{
+	background: rgb(239,225,33);
+	background: linear-gradient(90deg, rgba(239,225,33,1) 0%, rgba(255,0,0,1) 46%, rgba(0,0,255,1) 100%);
+	height: 10px;
+}
+.habilidadess{
+	margin-left: 0px;
+	height: 530px;
+}
+.progress{
+	margin: 10px;
+	height: 30px;
+	background-color: #B3B3B3;
+}
+.progress-bar{
+	margin: 5px;
+	background: linear-gradient(90deg, rgba(239,225,33,1) 0%, rgba(255,0,0,1) 46%, rgba(0,0,255,1) 100%);
+}
+
+.cartas{
+	justify-content: center;
+	background-color: #ffffff;	
+}
+.card{
+	text-align: center;
+	margin: 10px;
+	
+}
+
+.fin{
+	background-color: #000000;
+	height: 50px;
+	text-align: center;
+	color: #ffffff;
+}

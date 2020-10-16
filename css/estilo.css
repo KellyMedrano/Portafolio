@@ -1,0 +1,211 @@
+@font-face{
+	font-family: dolce vita light;
+	src:url(../fuentes/dolcevitalight.ttf) format("truetype");
+
+	font-family: dolce vita heavy;
+	src:url(../fuentes/dolcevitaheavybold.ttf) format("truetype");
+}
+
+*{
+	box-sizing: border-box;
+}
+body{
+	background-color: black;
+	margin:auto;
+}
+
+h2{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+}
+h1{
+	font-size: 80px
+}
+
+.caja1{
+	background-color: black;
+	color: white;
+	height:30px;
+	justify-content: center;
+	font-size: 10px;
+}
+.caja2{
+	
+	background-color: black;
+	color: white;	
+	height:46px;
+	justify-content: flex-end;
+
+}
+
+
+
+.logo{
+	display: flex;
+	background-color: #ffffff;
+	height: 70px;
+	padding: 10px;
+	align-items: center;
+}
+
+
+.boton{
+	background-color: #ffffff;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	height: 70px;
+}
+
+button{
+	float: right;
+	align-content: center flex-end;
+	background-color: transparent;
+	border-color: transparent;
+	height: 40px;
+	font-size: 20px;
+}
+
+
+
+
+
+.cajaletra{ 
+	display: flex;
+	background-color: #ffffff;
+	height: 520px;
+	
+}
+.nombre{
+	font-family: dolce vita heavy;
+	margin-top: 250px;
+	
+}
+.slogan{
+	margin-top: 430px;
+	margin-left: 5px;
+}
+
+
+
+
+
+.cajaimg{
+	background-color: #ffffff;
+	display: flex;
+	height: 520px;
+	float: left;
+	text-align: center;
+
+}
+.cajavideo{
+	background-color: #CDCCCC;
+	display: flex;
+	height: 520px;
+	float: left; 
+}
+
+.servicio{
+	font-family: dolce vita heavy;
+	color: #ffffff;
+	background-color: #8122DD;
+	height: 80px;
+	text-align: center;
+	margin-top: 10px;
+}
+
+h3{
+	font-size: 60px;
+}
+.servicio2{
+
+	background-color: #ffffff;
+	height: 250px;	
+}
+
+.img1{
+	margin-top: 10px;
+}
+/* --- --- CAROUSEL --- --- */
+.carousel__contenedor {
+	background-color: #ffffff;
+	height: 220px;
+	position: relative;
+}
+
+.carousel__anterior,
+.carousel__siguiente {
+	position: absolute;
+	display: block;
+	width: 30px;
+	height: 30px;
+	border: none;
+	/* centrar flecha verticalmente */
+	top: calc(50% - 35px);
+	cursor: pointer;
+	line-height: 30px;
+	text-align: center;
+	background: none;
+	color:#8122DD;
+	opacity: 30%;
+}
+
+.carousel__anterior:hover,
+.carousel__siguiente:hover {
+	opacity: 100%;
+}
+
+.carousel__anterior {
+	left: -30px;
+}
+
+.carousel__siguiente {
+	right: -30px;
+}
+
+.carousel__elemento {
+
+	text-align: center;
+}
+
+.carousel__indicadores .glider-dot {
+	align-content: center;
+	display: block;
+	width: 10px;
+	height: 10px;
+	background: #8122DD;
+	opacity: .50;
+	border-radius: .100;
+}
+
+.carousel__indicadores .glider-dot:hover {
+	opacity: .100;
+}
+
+.carousel__indicadores .glider-dot.active {
+	opacity: 100;
+	
+}
+
+
+
+
+
+.fin{
+	background-color: #000000;
+	height: 50px;
+	text-align: center;
+	color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
